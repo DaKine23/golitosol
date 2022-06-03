@@ -99,7 +99,7 @@ func NewGoLicenseOutput(raw string) goLicenseOutput {
 
 func (sli *solLicenseInput) String() string {
 
-	return sli.lib + ";" + sli.version + ";" + sli.licenseUrl + ";" + sli.license
+	return ";" + sli.lib + ";" + sli.version + ";" + sli.licenseUrl + ";" + sli.license
 
 }
 
